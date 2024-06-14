@@ -135,6 +135,12 @@
         },
         {
           "location": {
+            "uri": "test/tied_sequence.cpp"
+          },
+          "length": -1
+        },
+        {
+          "location": {
             "uri": "flat_map/__concepts.hpp"
           },
           "length": -1
@@ -800,6 +806,27 @@
           "ruleIndex": 6,
           "level": "error",
           "message": {
+            "text": "syntax error: \u003c= \u003e"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/test_case/basic.ipp"
+                },
+                "region": {
+                  "startLine": 1540,
+                  "startColumn": 21
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "syntaxError",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
             "text": "syntax error"
           },
           "locations": [
@@ -937,6 +964,27 @@
                 "region": {
                   "startLine": 29,
                   "startColumn": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "syntaxError",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "syntax error: \u003c= \u003e"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test/tied_sequence.cpp"
+                },
+                "region": {
+                  "startLine": 1023,
+                  "startColumn": 21
                 }
               }
             }

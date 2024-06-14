@@ -106,6 +106,9 @@
             <location file="test/test_case/map_only.ipp" line="49" column="15" info="Variable &apos;value&apos; can be declared as reference to const"/>
             <symbol>value</symbol>
         </error>
+        <error id="syntaxError" severity="error" msg="syntax error: &lt;= &gt;" verbose="syntax error: &lt;= &gt;" file0="test/map_deque.cpp">
+            <location file="test/test_case/basic.ipp" line="1540" column="21"/>
+        </error>
         <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="test/map_tie.cpp">
             <location file="flat_map/__tuple.hpp" line="98" column="71"/>
         </error>
@@ -132,6 +135,9 @@
         <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/multiset_vector.cpp">
             <location file="test/test_case/memory.hpp" line="29" column="5"/>
             <symbol>stateful_allocator &lt; int &gt;</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: &lt;= &gt;" verbose="syntax error: &lt;= &gt;" file0="test/tied_sequence.cpp">
+            <location file="test/tied_sequence.cpp" line="1023" column="21"/>
         </error>
         <error id="unusedFunction" severity="style" msg="The function &apos;BM_copy&apos; is never used." verbose="The function &apos;BM_copy&apos; is never used." cwe="561">
             <location file="bench/map_copy.cpp" line="28" column="0"/>
