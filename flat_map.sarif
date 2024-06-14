@@ -9,12 +9,6 @@
           "name": "cppcheck",
           "rules": [
             {
-              "id": "missingIncludeSystem",
-              "shortDescription": {
-                "text": "missingIncludeSystem"
-              }
-            },
-            {
               "id": "noExplicitConstructor",
               "shortDescription": {
                 "text": "noExplicitConstructor"
@@ -39,12 +33,6 @@
               }
             },
             {
-              "id": "syntaxError",
-              "shortDescription": {
-                "text": "syntaxError"
-              }
-            },
-            {
               "id": "redundantInitialization",
               "shortDescription": {
                 "text": "redundantInitialization"
@@ -54,6 +42,12 @@
               "id": "constVariableReference",
               "shortDescription": {
                 "text": "constVariableReference"
+              }
+            },
+            {
+              "id": "syntaxError",
+              "shortDescription": {
+                "text": "syntaxError"
               }
             },
             {
@@ -69,7 +63,7 @@
       "artifacts": [
         {
           "location": {
-            "uri": "bench/map_construction.cpp"
+            "uri": "flat_map/__flat_tree.hpp"
           },
           "length": -1
         },
@@ -81,19 +75,7 @@
         },
         {
           "location": {
-            "uri": "flat_map/__type_traits.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/__flat_tree.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/__concepts.hpp"
+            "uri": "bench/map_construction.cpp"
           },
           "length": -1
         },
@@ -123,31 +105,7 @@
         },
         {
           "location": {
-            "uri": "flat_map/tied_sequence.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/__memory.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/__tuple.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/map_deque.cpp"
+            "uri": "flat_map/flat_multimap.hpp"
           },
           "length": -1
         },
@@ -159,55 +117,13 @@
         },
         {
           "location": {
-            "uri": "test/test_case/config.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/flat_multimap.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/test_case/stateful_comparison.ipp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/test_case/std.ipp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
             "uri": "test/test_case/map_only.ipp"
           },
           "length": -1
         },
         {
           "location": {
-            "uri": "test/map_tie.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/test_case/catch2_tuple.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/map_vector.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/test_case/deduction_guide.ipp"
+            "uri": "flat_map/__tuple.hpp"
           },
           "length": -1
         },
@@ -219,663 +135,21 @@
         },
         {
           "location": {
-            "uri": "test/multimap_deque.cpp"
+            "uri": "flat_map/__concepts.hpp"
           },
           "length": -1
         },
         {
           "location": {
-            "uri": "test/multimap_tie.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/multimap_vector.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/flat_multiset.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/multiset_deque.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "flat_map/flat_set.hpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/multiset_vector.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/set_deque.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/set_vector.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/tied_sequence.cpp"
-          },
-          "length": -1
-        },
-        {
-          "location": {
-            "uri": "test/tuple.cpp"
+            "uri": "test/test_case/stateful_comparison.ipp"
           },
           "length": -1
         }
       ],
       "results": [
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_construction.cpp"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_construction.cpp"
-                },
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_map.hpp"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__type_traits.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__type_traits.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__type_traits.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccassert\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003coptional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__flat_tree.hpp"
-                },
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__concepts.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_construction.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_construction.cpp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_construction.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_construction.cpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
@@ -896,7 +170,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
@@ -917,7 +191,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
@@ -938,7 +212,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
@@ -959,7 +233,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'node_type' has a constructor with 1 argument that is not explicit."
@@ -980,7 +254,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'value_compare' has a constructor with 1 argument that is not explicit."
@@ -1001,7 +275,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct '_comparator' has a constructor with 1 argument that is not explicit."
@@ -1022,7 +296,7 @@
         },
         {
           "ruleId": "shadowVariable",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
@@ -1060,7 +334,7 @@
         },
         {
           "ruleId": "unknownMacro",
-          "ruleIndex": 3,
+          "ruleIndex": 2,
           "level": "error",
           "message": {
             "text": "There is an unknown macro here somewhere. Configuration is required. If _LIBCPP_BEGIN_NAMESPACE_STD is a macro then please configure it."
@@ -1080,29 +354,8 @@
           ]
         },
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cbits/c++config.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__fwd.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
           "ruleId": "unknownMacro",
-          "ruleIndex": 3,
+          "ruleIndex": 2,
           "level": "error",
           "message": {
             "text": "There is an unknown macro here somewhere. Configuration is required. If _GLIBCXX_BEGIN_NAMESPACE_VERSION is a macro then please configure it."
@@ -1122,134 +375,8 @@
           ]
         },
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_copy.cpp"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_copy.cpp"
-                },
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_copy.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_copy.cpp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_copy.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_copy.cpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
           "ruleId": "shadowVariable",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
@@ -1286,134 +413,8 @@
           ]
         },
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_insertion.cpp"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_insertion.cpp"
-                },
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_insertion.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_insertion.cpp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_insertion.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_insertion.cpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
           "ruleId": "shadowVariable",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
@@ -1451,7 +452,7 @@
         },
         {
           "ruleId": "constParameterReference",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "none",
           "message": {
             "text": "Parameter 'lhs' can be declared as reference to const"
@@ -1475,7 +476,7 @@
         },
         {
           "ruleId": "constParameterReference",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "none",
           "message": {
             "text": "Parameter 'rhs' can be declared as reference to const"
@@ -1499,7 +500,7 @@
         },
         {
           "ruleId": "constParameterReference",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "none",
           "message": {
             "text": "Parameter 'lhs' can be declared as reference to const"
@@ -1523,7 +524,7 @@
         },
         {
           "ruleId": "constParameterReference",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "none",
           "message": {
             "text": "Parameter 'rhs' can be declared as reference to const"
@@ -1546,134 +547,8 @@
           ]
         },
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_merge.cpp"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_merge.cpp"
-                },
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_merge.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_merge.cpp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_merge.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bench/map_merge.cpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
           "ruleId": "shadowVariable",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
@@ -1704,804 +579,6 @@
                   "message": {
                     "text": "Shadowed declaration"
                   }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/tied_sequence.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__memory.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cnew\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__memory.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__memory.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__memory.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__tuple.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__tuple.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ciostream\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test.cpp"
-                },
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test.cpp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "syntaxError",
-          "ruleIndex": 5,
-          "level": "error",
-          "message": {
-            "text": "syntax error"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/__tuple.hpp"
-                },
-                "region": {
-                  "startLine": 98,
-                  "startColumn": 71
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/map_deque.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/basic.ipp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/basic.ipp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/basic.ipp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/basic.ipp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/config.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/config.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/config.hpp"
-                },
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multimap.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/stateful_comparison.ipp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/stateful_comparison.ipp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/std.ipp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/map_only.ipp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/map_only.ipp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/map_only.ipp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
                 }
               }
             }
@@ -2509,7 +586,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'value_compare' has a constructor with 1 argument that is not explicit."
@@ -2530,7 +607,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct '_comparator' has a constructor with 1 argument that is not explicit."
@@ -2551,7 +628,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'wrap' has a constructor with 1 argument that is not explicit."
@@ -2572,7 +649,7 @@
         },
         {
           "ruleId": "redundantInitialization",
-          "ruleIndex": 6,
+          "ruleIndex": 4,
           "level": "none",
           "message": {
             "text": "Redundant initialization for 'copy'. The initialized value is overwritten before it is read."
@@ -2610,7 +687,7 @@
         },
         {
           "ruleId": "redundantInitialization",
-          "ruleIndex": 6,
+          "ruleIndex": 4,
           "level": "none",
           "message": {
             "text": "Redundant initialization for 'move'. The initialized value is overwritten before it is read."
@@ -2648,7 +725,7 @@
         },
         {
           "ruleId": "constVariableReference",
-          "ruleIndex": 7,
+          "ruleIndex": 5,
           "level": "none",
           "message": {
             "text": "Variable 'value' can be declared as reference to const"
@@ -2672,7 +749,7 @@
         },
         {
           "ruleId": "constVariableReference",
-          "ruleIndex": 7,
+          "ruleIndex": 5,
           "level": "none",
           "message": {
             "text": "Variable 'value' can be declared as reference to const"
@@ -2696,7 +773,7 @@
         },
         {
           "ruleId": "constVariableReference",
-          "ruleIndex": 7,
+          "ruleIndex": 5,
           "level": "none",
           "message": {
             "text": "Variable 'value' can be declared as reference to const"
@@ -2719,147 +796,21 @@
           ]
         },
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
+          "ruleId": "syntaxError",
+          "ruleIndex": 6,
+          "level": "error",
           "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
+            "text": "syntax error"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test/map_tie.cpp"
+                  "uri": "flat_map/__tuple.hpp"
                 },
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_tostring.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/catch2_tuple.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/map_vector.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/deduction_guide.ipp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/deduction_guide.ipp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/deduction_guide.ipp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/deduction_guide.ipp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
+                  "startLine": 98,
+                  "startColumn": 71
                 }
               }
             }
@@ -2867,7 +818,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c std :: pair \u003c int , int \u003e \u003e' has a constructor with 1 argument that is not explicit."
@@ -2888,7 +839,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c std :: pair \u003c int , int \u003e \u003e' has a constructor with 1 argument that is not explicit."
@@ -2909,7 +860,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c std :: pair \u003c int , int \u003e \u003e' has a constructor with 1 argument that is not explicit."
@@ -2929,428 +880,8 @@
           ]
         },
         {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/multimap_deque.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/multimap_tie.cpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/multimap_vector.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_multiset.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/multiset_deque.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cset\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/test_case/config.hpp"
-                },
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "flat_map/flat_set.hpp"
-                },
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/multiset_vector.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c int \u003e' has a constructor with 1 argument that is not explicit."
@@ -3371,7 +902,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c int \u003e' has a constructor with 1 argument that is not explicit."
@@ -3392,7 +923,7 @@
         },
         {
           "ruleId": "noExplicitConstructor",
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c int \u003e' has a constructor with 1 argument that is not explicit."
@@ -3406,216 +937,6 @@
                 "region": {
                   "startLine": 29,
                   "startColumn": 5
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/set_deque.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/set_vector.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tied_sequence.cpp"
-                },
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "missingIncludeSystem",
-          "ruleIndex": 0,
-          "level": "note",
-          "message": {
-            "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test/tuple.cpp"
-                },
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1
                 }
               }
             }
@@ -3623,7 +944,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'BM_copy' is never used."
@@ -3644,7 +965,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'BM_range_insertion' is never used."
@@ -3665,7 +986,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'BM_sorted_range_insertion' is never used."
@@ -3686,7 +1007,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'BM_insert_sorted' is never used."
@@ -3707,7 +1028,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'BM_merge' is never used."
@@ -3728,7 +1049,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'check' is never used."
@@ -3749,7 +1070,7 @@
         },
         {
           "ruleId": "unusedFunction",
-          "ruleIndex": 8,
+          "ruleIndex": 7,
           "level": "none",
           "message": {
             "text": "The function 'less2' is never used."
