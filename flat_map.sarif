@@ -10,43 +10,63 @@
           "rules": [
             {
               "id": "missingIncludeSystem",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "missingIncludeSystem"
+              }
             },
             {
               "id": "noExplicitConstructor",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "noExplicitConstructor"
+              }
             },
             {
               "id": "shadowVariable",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "shadowVariable"
+              }
             },
             {
               "id": "unknownMacro",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "unknownMacro"
+              }
             },
             {
               "id": "constParameterReference",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "constParameterReference"
+              }
             },
             {
               "id": "syntaxError",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "syntaxError"
+              }
             },
             {
               "id": "redundantInitialization",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "redundantInitialization"
+              }
             },
             {
               "id": "constVariableReference",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "constVariableReference"
+              }
             },
             {
               "id": "unusedFunction",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "unusedFunction"
+              }
             },
             {
               "id": "checkersReport",
-              "shortDescription": null
+              "shortDescription": {
+                "text": "checkersReport"
+              }
             }
           ],
           "semanticVersion": "2.14.1"
@@ -274,7 +294,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -286,7 +306,7 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -298,7 +318,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -310,7 +330,7 @@
                 },
                 "region": {
                   "startLine": 2,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -322,7 +342,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -334,7 +354,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -346,7 +366,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -358,7 +378,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -370,7 +390,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -382,7 +402,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -394,7 +414,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -406,7 +426,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -418,7 +438,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -430,7 +450,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -442,7 +462,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -454,7 +474,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -466,7 +486,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -478,7 +498,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -490,7 +510,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -502,7 +522,7 @@
                 },
                 "region": {
                   "startLine": 13,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -514,7 +534,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -526,7 +546,7 @@
                 },
                 "region": {
                   "startLine": 14,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -538,7 +558,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -550,7 +570,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -562,7 +582,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -574,7 +594,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -586,7 +606,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -598,7 +618,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -610,7 +630,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -622,7 +642,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -634,7 +654,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccassert\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -646,7 +666,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -658,7 +678,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -670,7 +690,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -682,7 +702,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -694,7 +714,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -706,7 +726,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -718,7 +738,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -730,7 +750,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -742,7 +762,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -754,7 +774,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003coptional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -766,7 +786,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -778,7 +798,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -790,7 +810,7 @@
                 },
                 "region": {
                   "startLine": 13,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -802,7 +822,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -814,7 +834,7 @@
                 },
                 "region": {
                   "startLine": 14,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -826,7 +846,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -838,7 +858,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -850,7 +870,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -862,7 +882,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -874,7 +894,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -886,7 +906,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -898,7 +918,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -910,7 +930,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -922,7 +942,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -934,7 +954,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -946,7 +966,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
           },
@@ -970,7 +990,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
           },
@@ -994,7 +1014,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
           },
@@ -1018,7 +1038,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'comparator_store' has a constructor with 1 argument that is not explicit."
           },
@@ -1042,7 +1062,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'node_type' has a constructor with 1 argument that is not explicit."
           },
@@ -1066,7 +1086,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'value_compare' has a constructor with 1 argument that is not explicit."
           },
@@ -1090,7 +1110,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct '_comparator' has a constructor with 1 argument that is not explicit."
           },
@@ -1114,7 +1134,7 @@
         {
           "ruleId": "shadowVariable",
           "ruleIndex": 2,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
           },
@@ -1176,7 +1196,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cbits/c++config.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1188,7 +1208,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1224,7 +1244,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1236,7 +1256,7 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1248,7 +1268,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1260,7 +1280,7 @@
                 },
                 "region": {
                   "startLine": 2,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1272,7 +1292,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1284,7 +1304,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1296,7 +1316,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1308,7 +1328,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1320,7 +1340,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1332,7 +1352,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1344,7 +1364,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1356,7 +1376,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1368,7 +1388,7 @@
         {
           "ruleId": "shadowVariable",
           "ruleIndex": 2,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
           },
@@ -1406,7 +1426,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1418,7 +1438,7 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1430,7 +1450,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1442,7 +1462,7 @@
                 },
                 "region": {
                   "startLine": 2,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1454,7 +1474,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1466,7 +1486,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1478,7 +1498,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1490,7 +1510,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1502,7 +1522,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1514,7 +1534,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1526,7 +1546,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1538,7 +1558,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1550,7 +1570,7 @@
         {
           "ruleId": "shadowVariable",
           "ruleIndex": 2,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
           },
@@ -1588,7 +1608,7 @@
         {
           "ruleId": "constParameterReference",
           "ruleIndex": 4,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Parameter 'lhs' can be declared as reference to const"
           },
@@ -1612,7 +1632,7 @@
         {
           "ruleId": "constParameterReference",
           "ruleIndex": 4,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Parameter 'rhs' can be declared as reference to const"
           },
@@ -1636,7 +1656,7 @@
         {
           "ruleId": "constParameterReference",
           "ruleIndex": 4,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Parameter 'lhs' can be declared as reference to const"
           },
@@ -1660,7 +1680,7 @@
         {
           "ruleId": "constParameterReference",
           "ruleIndex": 4,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Parameter 'rhs' can be declared as reference to const"
           },
@@ -1684,7 +1704,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cbenchmark/benchmark.h\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1696,7 +1716,7 @@
                 },
                 "region": {
                   "startLine": 1,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1708,7 +1728,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1720,7 +1740,7 @@
                 },
                 "region": {
                   "startLine": 2,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1732,7 +1752,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1744,7 +1764,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1756,7 +1776,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003crandom\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1768,7 +1788,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1780,7 +1800,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cunordered_map\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1792,7 +1812,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1804,7 +1824,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1816,7 +1836,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1828,7 +1848,7 @@
         {
           "ruleId": "shadowVariable",
           "ruleIndex": 2,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Local variable 'v' shadows outer variable"
           },
@@ -1866,7 +1886,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1878,7 +1898,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1890,7 +1910,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1902,7 +1922,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1914,7 +1934,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1926,7 +1946,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1938,7 +1958,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1950,7 +1970,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1962,7 +1982,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1974,7 +1994,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -1986,7 +2006,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -1998,7 +2018,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2010,7 +2030,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2022,7 +2042,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2034,7 +2054,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2046,7 +2066,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2058,7 +2078,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cnew\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2070,7 +2090,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2082,7 +2102,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2094,7 +2114,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2106,7 +2126,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2118,7 +2138,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2130,7 +2150,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2142,7 +2162,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2154,7 +2174,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2166,7 +2186,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2178,7 +2198,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ciostream\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2190,7 +2210,7 @@
                 },
                 "region": {
                   "startLine": 3,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2202,7 +2222,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2214,7 +2234,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2226,7 +2246,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2238,7 +2258,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2274,7 +2294,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2286,7 +2306,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2298,7 +2318,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2310,7 +2330,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2322,7 +2342,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2334,7 +2354,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2346,7 +2366,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2358,7 +2378,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2370,7 +2390,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2382,7 +2402,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2394,7 +2414,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2406,7 +2426,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2418,7 +2438,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2430,7 +2450,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2442,7 +2462,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2454,7 +2474,7 @@
                 },
                 "region": {
                   "startLine": 13,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2466,7 +2486,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2478,7 +2498,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2490,7 +2510,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2502,7 +2522,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2514,7 +2534,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2526,7 +2546,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2538,7 +2558,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2550,7 +2570,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2562,7 +2582,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2574,7 +2594,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2586,7 +2606,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2598,7 +2618,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2610,7 +2630,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2622,7 +2642,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2634,7 +2654,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2646,7 +2666,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2658,7 +2678,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2670,7 +2690,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2682,7 +2702,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2694,7 +2714,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2706,7 +2726,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2718,7 +2738,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2730,7 +2750,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003citerator\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2742,7 +2762,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2754,7 +2774,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -2766,7 +2786,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -2778,7 +2798,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'value_compare' has a constructor with 1 argument that is not explicit."
           },
@@ -2802,7 +2822,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct '_comparator' has a constructor with 1 argument that is not explicit."
           },
@@ -2826,7 +2846,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'wrap' has a constructor with 1 argument that is not explicit."
           },
@@ -2850,7 +2870,7 @@
         {
           "ruleId": "redundantInitialization",
           "ruleIndex": 6,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Redundant initialization for 'copy'. The initialized value is overwritten before it is read."
           },
@@ -2888,7 +2908,7 @@
         {
           "ruleId": "redundantInitialization",
           "ruleIndex": 6,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Redundant initialization for 'move'. The initialized value is overwritten before it is read."
           },
@@ -2926,7 +2946,7 @@
         {
           "ruleId": "constVariableReference",
           "ruleIndex": 7,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Variable 'value' can be declared as reference to const"
           },
@@ -2950,7 +2970,7 @@
         {
           "ruleId": "constVariableReference",
           "ruleIndex": 7,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Variable 'value' can be declared as reference to const"
           },
@@ -2974,7 +2994,7 @@
         {
           "ruleId": "constVariableReference",
           "ruleIndex": 7,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Variable 'value' can be declared as reference to const"
           },
@@ -2998,7 +3018,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3010,7 +3030,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3022,7 +3042,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_tostring.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3034,7 +3054,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3046,7 +3066,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3058,7 +3078,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3070,7 +3090,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3082,7 +3102,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3094,7 +3114,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3106,7 +3126,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3118,7 +3138,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmemory\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3130,7 +3150,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3142,7 +3162,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3154,7 +3174,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3166,7 +3186,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c std :: pair \u003c int , int \u003e \u003e' has a constructor with 1 argument that is not explicit."
           },
@@ -3190,7 +3210,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c std :: pair \u003c int , int \u003e \u003e' has a constructor with 1 argument that is not explicit."
           },
@@ -3214,7 +3234,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c std :: pair \u003c int , int \u003e \u003e' has a constructor with 1 argument that is not explicit."
           },
@@ -3238,7 +3258,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3250,7 +3270,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3262,7 +3282,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3274,7 +3294,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3286,7 +3306,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3298,7 +3318,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3310,7 +3330,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3322,7 +3342,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3334,7 +3354,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3346,7 +3366,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3358,7 +3378,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3370,7 +3390,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3382,7 +3402,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3394,7 +3414,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3406,7 +3426,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3418,7 +3438,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3430,7 +3450,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3442,7 +3462,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3454,7 +3474,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3466,7 +3486,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3478,7 +3498,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3490,7 +3510,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3502,7 +3522,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cset\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3514,7 +3534,7 @@
                 },
                 "region": {
                   "startLine": 37,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3526,7 +3546,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003calgorithm\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3538,7 +3558,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3550,7 +3570,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccstddef\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3562,7 +3582,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3574,7 +3594,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cfunctional\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3586,7 +3606,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3598,7 +3618,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cinitializer_list\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3610,7 +3630,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3622,7 +3642,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3634,7 +3654,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3646,7 +3666,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cutility\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3658,7 +3678,7 @@
                 },
                 "region": {
                   "startLine": 11,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3670,7 +3690,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3682,7 +3702,7 @@
                 },
                 "region": {
                   "startLine": 12,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3694,7 +3714,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3706,7 +3726,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3718,7 +3738,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c int \u003e' has a constructor with 1 argument that is not explicit."
           },
@@ -3742,7 +3762,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c int \u003e' has a constructor with 1 argument that is not explicit."
           },
@@ -3766,7 +3786,7 @@
         {
           "ruleId": "noExplicitConstructor",
           "ruleIndex": 1,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "Struct 'stateful_allocator \u003c int \u003e' has a constructor with 1 argument that is not explicit."
           },
@@ -3790,7 +3810,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3802,7 +3822,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3814,7 +3834,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3826,7 +3846,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3838,7 +3858,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3850,7 +3870,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3862,7 +3882,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cdeque\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3874,7 +3894,7 @@
                 },
                 "region": {
                   "startLine": 5,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3886,7 +3906,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cmap\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3898,7 +3918,7 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3910,7 +3930,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cstdexcept\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3922,7 +3942,7 @@
                 },
                 "region": {
                   "startLine": 7,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3934,7 +3954,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctuple\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3946,7 +3966,7 @@
                 },
                 "region": {
                   "startLine": 8,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3958,7 +3978,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ctype_traits\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3970,7 +3990,7 @@
                 },
                 "region": {
                   "startLine": 9,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -3982,7 +4002,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003cvector\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -3994,7 +4014,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4006,7 +4026,7 @@
         {
           "ruleId": "missingIncludeSystem",
           "ruleIndex": 0,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Include file: \u003ccatch2/catch_test_macros.hpp\u003e not found. Please note: Cppcheck does not need standard library headers to get proper results."
           },
@@ -4018,7 +4038,7 @@
                 },
                 "region": {
                   "startLine": 4,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4030,7 +4050,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'BM_copy' is never used."
           },
@@ -4042,7 +4062,7 @@
                 },
                 "region": {
                   "startLine": 28,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4054,7 +4074,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'BM_range_insertion' is never used."
           },
@@ -4066,7 +4086,7 @@
                 },
                 "region": {
                   "startLine": 28,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4078,7 +4098,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'BM_sorted_range_insertion' is never used."
           },
@@ -4090,7 +4110,7 @@
                 },
                 "region": {
                   "startLine": 63,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4102,7 +4122,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'BM_insert_sorted' is never used."
           },
@@ -4114,7 +4134,7 @@
                 },
                 "region": {
                   "startLine": 104,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4126,7 +4146,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'BM_merge' is never used."
           },
@@ -4138,7 +4158,7 @@
                 },
                 "region": {
                   "startLine": 28,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4150,7 +4170,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'check' is never used."
           },
@@ -4162,7 +4182,7 @@
                 },
                 "region": {
                   "startLine": 28,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4174,7 +4194,7 @@
         {
           "ruleId": "unusedFunction",
           "ruleIndex": 8,
-          "level": "style",
+          "level": "none",
           "message": {
             "text": "The function 'less2' is never used."
           },
@@ -4186,7 +4206,7 @@
                 },
                 "region": {
                   "startLine": 10,
-                  "startColumn": 0,
+                  "startColumn": 1,
                   "message": {
                     "text": ""
                   }
@@ -4198,7 +4218,7 @@
         {
           "ruleId": "checkersReport",
           "ruleIndex": 9,
-          "level": "information",
+          "level": "note",
           "message": {
             "text": "Active checkers: There was critical errors (use --checkers-report=\u003cfilename\u003e to see details)"
           }
