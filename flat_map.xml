@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.14.1"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_construction.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_construction.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_map.hpp" line="14" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__type_traits.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__type_traits.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__type_traits.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;optional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__flat_tree.hpp" line="14" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__concepts.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_construction.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_construction.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_construction.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_construction.cpp" line="7" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/__flat_tree.hpp" line="28" column="5"/>
+            <symbol>comparator_store</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/__flat_tree.hpp" line="29" column="5"/>
+            <symbol>comparator_store</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/__flat_tree.hpp" line="39" column="5"/>
+            <symbol>comparator_store</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;comparator_store&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/__flat_tree.hpp" line="40" column="5"/>
+            <symbol>comparator_store</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;node_type&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;node_type&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/__flat_tree.hpp" line="72" column="9"/>
+            <symbol>node_type</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;value_compare&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;value_compare&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/flat_map.hpp" line="59" column="9"/>
+            <symbol>value_compare</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;_comparator&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;_comparator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="bench/map_construction.cpp">
+            <location file="flat_map/flat_map.hpp" line="72" column="9"/>
+            <symbol>_comparator</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;v&apos; shadows outer variable" verbose="Local variable &apos;v&apos; shadows outer variable" cwe="398" file0="bench/map_construction.cpp">
+            <location file="bench/map_construction.cpp" line="20" column="24" info="Shadow variable"/>
+            <location file="bench/map_construction.cpp" line="14" column="38" info="Shadowed declaration"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _LIBCPP_BEGIN_NAMESPACE_STD is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _LIBCPP_BEGIN_NAMESPACE_STD is a macro then please configure it." file0="bench/map_construction.cpp">
+            <location file="flat_map/__fwd.hpp" line="26" column="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;bits/c++config.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;bits/c++config.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__fwd.hpp" line="11" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _GLIBCXX_BEGIN_NAMESPACE_VERSION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _GLIBCXX_BEGIN_NAMESPACE_VERSION is a macro then please configure it." file0="bench/map_construction.cpp">
+            <location file="flat_map/__fwd.hpp" line="26" column="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_copy.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_copy.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_copy.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_copy.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_copy.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_copy.cpp" line="7" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;v&apos; shadows outer variable" verbose="Local variable &apos;v&apos; shadows outer variable" cwe="398" file0="bench/map_copy.cpp">
+            <location file="bench/map_copy.cpp" line="19" column="20" info="Shadow variable"/>
+            <location file="bench/map_copy.cpp" line="17" column="38" info="Shadowed declaration"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_insertion.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_insertion.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_insertion.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_insertion.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_insertion.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_insertion.cpp" line="7" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;v&apos; shadows outer variable" verbose="Local variable &apos;v&apos; shadows outer variable" cwe="398" file0="bench/map_insertion.cpp">
+            <location file="bench/map_insertion.cpp" line="19" column="20" info="Shadow variable"/>
+            <location file="bench/map_insertion.cpp" line="17" column="38" info="Shadowed declaration"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;lhs&apos; can be declared as reference to const" verbose="Parameter &apos;lhs&apos; can be declared as reference to const" cwe="398" file0="bench/map_insertion.cpp">
+            <location file="bench/map_insertion.cpp" line="80" column="50" info="Parameter &apos;lhs&apos; can be declared as reference to const"/>
+            <symbol>lhs</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;rhs&apos; can be declared as reference to const" verbose="Parameter &apos;rhs&apos; can be declared as reference to const" cwe="398" file0="bench/map_insertion.cpp">
+            <location file="bench/map_insertion.cpp" line="80" column="61" info="Parameter &apos;rhs&apos; can be declared as reference to const"/>
+            <symbol>rhs</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;lhs&apos; can be declared as reference to const" verbose="Parameter &apos;lhs&apos; can be declared as reference to const" cwe="398" file0="bench/map_insertion.cpp">
+            <location file="bench/map_insertion.cpp" line="121" column="50" info="Parameter &apos;lhs&apos; can be declared as reference to const"/>
+            <symbol>lhs</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;rhs&apos; can be declared as reference to const" verbose="Parameter &apos;rhs&apos; can be declared as reference to const" cwe="398" file0="bench/map_insertion.cpp">
+            <location file="bench/map_insertion.cpp" line="121" column="61" info="Parameter &apos;rhs&apos; can be declared as reference to const"/>
+            <symbol>rhs</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;benchmark/benchmark.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_merge.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_merge.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_merge.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_merge.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unordered_map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_merge.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="bench/map_merge.cpp" line="7" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;v&apos; shadows outer variable" verbose="Local variable &apos;v&apos; shadows outer variable" cwe="398" file0="bench/map_merge.cpp">
+            <location file="bench/map_merge.cpp" line="19" column="20" info="Shadow variable"/>
+            <location file="bench/map_merge.cpp" line="17" column="38" info="Shadowed declaration"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/tied_sequence.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__memory.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;new&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;new&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__memory.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__memory.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__memory.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__tuple.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/__tuple.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="5" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="test.cpp">
+            <location file="flat_map/__tuple.hpp" line="98" column="71"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/map_deque.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/basic.ipp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/basic.ipp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/basic.ipp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/basic.ipp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/config.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/config.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/config.hpp" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multimap.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/stateful_comparison.ipp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/stateful_comparison.ipp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/std.ipp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/map_only.ipp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/map_only.ipp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/map_only.ipp" line="6" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;value_compare&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;value_compare&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/map_deque.cpp">
+            <location file="flat_map/flat_multimap.hpp" line="57" column="9"/>
+            <symbol>value_compare</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;_comparator&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;_comparator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/map_deque.cpp">
+            <location file="flat_map/flat_multimap.hpp" line="69" column="9"/>
+            <symbol>_comparator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;wrap&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;wrap&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/map_deque.cpp">
+            <location file="test/test_case/basic.ipp" line="15" column="5"/>
+            <symbol>wrap</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;copy&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;copy&apos;. The initialized value is overwritten before it is read." cwe="563" file0="test/map_deque.cpp">
+            <location file="test/test_case/basic.ipp" line="225" column="14" info="copy is overwritten"/>
+            <location file="test/test_case/basic.ipp" line="221" column="39" info="copy is initialized"/>
+            <symbol>copy</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;move&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;move&apos;. The initialized value is overwritten before it is read." cwe="563" file0="test/map_deque.cpp">
+            <location file="test/test_case/basic.ipp" line="254" column="14" info="move is overwritten"/>
+            <location file="test/test_case/basic.ipp" line="250" column="39" info="move is initialized"/>
+            <symbol>move</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;value&apos; can be declared as reference to const" verbose="Variable &apos;value&apos; can be declared as reference to const" cwe="398" file0="test/map_deque.cpp">
+            <location file="test/test_case/map_only.ipp" line="32" column="15" info="Variable &apos;value&apos; can be declared as reference to const"/>
+            <symbol>value</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;value&apos; can be declared as reference to const" verbose="Variable &apos;value&apos; can be declared as reference to const" cwe="398" file0="test/map_deque.cpp">
+            <location file="test/test_case/map_only.ipp" line="43" column="15" info="Variable &apos;value&apos; can be declared as reference to const"/>
+            <symbol>value</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;value&apos; can be declared as reference to const" verbose="Variable &apos;value&apos; can be declared as reference to const" cwe="398" file0="test/map_deque.cpp">
+            <location file="test/test_case/map_only.ipp" line="49" column="15" info="Variable &apos;value&apos; can be declared as reference to const"/>
+            <symbol>value</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/map_tie.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_tostring.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_tostring.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/catch2_tuple.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/map_vector.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/deduction_guide.ipp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/deduction_guide.ipp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/deduction_guide.ipp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/deduction_guide.ipp" line="7" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/map_vector.cpp">
+            <location file="test/test_case/memory.hpp" line="17" column="5"/>
+            <symbol>stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/map_vector.cpp">
+            <location file="test/test_case/memory.hpp" line="26" column="5"/>
+            <symbol>stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/map_vector.cpp">
+            <location file="test/test_case/memory.hpp" line="29" column="5"/>
+            <symbol>stateful_allocator &lt; std :: pair &lt; int , int &gt; &gt;</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/multimap_deque.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/multimap_tie.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/multimap_vector.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_multiset.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/multiset_deque.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/test_case/config.hpp" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;initializer_list&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="flat_map/flat_set.hpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/multiset_vector.cpp" line="6" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/multiset_vector.cpp">
+            <location file="test/test_case/memory.hpp" line="17" column="5"/>
+            <symbol>stateful_allocator &lt; int &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/multiset_vector.cpp">
+            <location file="test/test_case/memory.hpp" line="26" column="5"/>
+            <symbol>stateful_allocator &lt; int &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;stateful_allocator &lt; int &gt;&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="test/multiset_vector.cpp">
+            <location file="test/test_case/memory.hpp" line="29" column="5"/>
+            <symbol>stateful_allocator &lt; int &gt;</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/set_deque.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/set_vector.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tuple&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tied_sequence.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;catch2/catch_test_macros.hpp&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test/tuple.cpp" line="4" column="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;BM_copy&apos; is never used." verbose="The function &apos;BM_copy&apos; is never used." cwe="561">
+            <location file="bench/map_copy.cpp" line="28" column="0"/>
+            <symbol>BM_copy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;BM_range_insertion&apos; is never used." verbose="The function &apos;BM_range_insertion&apos; is never used." cwe="561">
+            <location file="bench/map_insertion.cpp" line="28" column="0"/>
+            <symbol>BM_range_insertion</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;BM_sorted_range_insertion&apos; is never used." verbose="The function &apos;BM_sorted_range_insertion&apos; is never used." cwe="561">
+            <location file="bench/map_insertion.cpp" line="63" column="0"/>
+            <symbol>BM_sorted_range_insertion</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;BM_insert_sorted&apos; is never used." verbose="The function &apos;BM_insert_sorted&apos; is never used." cwe="561">
+            <location file="bench/map_insertion.cpp" line="104" column="0"/>
+            <symbol>BM_insert_sorted</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;BM_merge&apos; is never used." verbose="The function &apos;BM_merge&apos; is never used." cwe="561">
+            <location file="bench/map_merge.cpp" line="28" column="0"/>
+            <symbol>BM_merge</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;check&apos; is never used." verbose="The function &apos;check&apos; is never used." cwe="561">
+            <location file="flat_map/__concepts.hpp" line="28" column="0"/>
+            <symbol>check</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;less2&apos; is never used." verbose="The function &apos;less2&apos; is never used." cwe="561">
+            <location file="test/test_case/stateful_comparison.ipp" line="10" column="0"/>
+            <symbol>less2</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>
