@@ -61,12 +61,6 @@
               "shortDescription": {
                 "text": "unusedFunction"
               }
-            },
-            {
-              "id": "checkersReport",
-              "shortDescription": {
-                "text": "checkersReport"
-              }
             }
           ],
           "semanticVersion": "2.14.1"
@@ -4214,14 +4208,6 @@
               }
             }
           ]
-        },
-        {
-          "ruleId": "checkersReport",
-          "ruleIndex": 9,
-          "level": "note",
-          "message": {
-            "text": "Active checkers: There was critical errors (use --checkers-report=\u003cfilename\u003e to see details)"
-          }
         }
       ]
     }
